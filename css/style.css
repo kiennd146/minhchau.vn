@@ -17,6 +17,14 @@ body {
 	width:960px;
 	height:41px;
 }
+#mc_breadcrumb {
+	width:960px;
+	height:65px;
+}
+#mc_component {
+	width:960px;
+}
+
 ul.mc_menu_horizontal {
 	height:41px;
 	width:100%;
@@ -177,4 +185,12 @@ ul.mc_advertise a{
 }
 a.mc_content_item_image {
 	
+}
+#mc_breadcrumb h2{
+	font-size:16px;
+	font-weight:bold;
+}
+#mc_breadcrumb a, #mc_breadcrumb a:hover{
+	text-decoration:none;
+	color:#474747;
 }

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head xmlns="http://www.w3.org/1999/xhtml">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+    <link href="./css/bootstrap.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="./css/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" media="all" rel="stylesheet" type="text/css" />
+    
+    <script language="javascript" type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+	<script language="javascript" type="text/javascript" src="./js/jquery-ui-1.8.min.js"></script>
+	
+    <script language="javascript" type="text/javascript" src="./js/bootstrap.js"></script>
+    <script language="javascript" type="text/javascript" src="./js/bootstrap-carousel.js"></script>
+		
+    <script>
+	(function($){
+		
+        $.fn.setupCarousel = function() {
+			$carousel = $(this);
+			$carousel.carousel("cycle");
+        }
+        
+        $(document).ready(function(){
+			// carousel
+            $("#mc_carousel").setupCarousel();
+        });
+	})(jQuery);
+    </script>
+	
+</head>
+<body>
+
+<div id="mc_wrapper">
+	<!--HEAD-->
+    <div class="container" id="mc_head">
+        <div class="row-fluid">
+            <div class="pull-left" id="mc_logo">
+                <a href="#"><img src="./images/logo.png" /></a>
+            </div>
+        </div>
+    </div>
+	
+	<!--MENU-->
+	<div class="container" id="mc_menu">
+        <div class="row-fluid">
+			<ul class="mc_menu_horizontal">
+				<li class="current first">
+					<a href="#">Trang chủ</a>
+				</li>
+				<li>
+					<a href="#">Giải pháp</a>
+				</li>
+				<li>
+					<a href="#">Sản phẩm</a>
+				</li>
+				<li>
+					<a href="#">Dịch vụ</a>
+				</li>
+				<li>
+					<a href="#">Tin tức</a>
+				</li>
+				<li>
+					<a href="#">Đối tác</a>
+				</li>
+			</ul>
+        </div>
+    </div>
+	
+	<!--BANNER-->
+	<div class="container" id="mc_banner">
+        <div class="row-fluid">
+            <div class="mc_banner_carousel">
+				<img src="./images/sample-carousel.png" />
+			</div>
+        </div>
+    </div>
+	
+	<!--BREADCRUMB-->
+	<div class="container" id="mc_breadcrumb">
+        <div class="row-fluid">
+            <h2><a href="#">Sản phẩm</a> >> <a href="#">Điện toán đám mây</a></h2>
+        </div>
+    </div>
+	
+	<!--MAIN COMPONENT-->
+	<div class="container" id="mc_component">
+		<div class="row-fluid">
+            <div class="span9 pull-left" id="mc_component_left">
+				<div class="mc_content">
+					
+				</div>
+			</div>
+			<div class="span3 pull-right" id="mc_component_right">
+				<ul class="mc_advertise">
+					<li>
+						<a href="#"><img src="./images/adv_cisco.png" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="./images/adv_cisco2.png" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="./images/adv_cisco3.png" /></a>
+					</li>
+				</ul>
+			</div>
+        </div>
+	</div>
+	
+	<!-- FOOTER -->
+	<div class="container" id="mc_footer">
+		<div class="row mc_footer_address">
+			<div class="span5 pull-left">
+				<ul class="mc_footer_items">
+					<li><h3>Địa chỉ</h3></li>
+					<li>12 - Bà triệu - Đống đa - Hà nội</li>
+					<li>
+						Phone: <span>(855)5453534 234234</span>
+						Fax: <span>(855)5453534 234234</span>
+					</li>
+				</ul>
+			</div>
+			<div class="span5 pull-left">
+				<ul class="mc_footer_items">
+					<li><h3>Thống kê</h3></li>
+					<li>Lượt truy cập: <span>100.030</span></li>
+					<li>Số người online: <span>100.030</span></li>
+				</ul>
+			</div>
+			<div class="span2 pull-right">
+				<a href="#"><img src="./images/logo2.png" /></a>
+			</div>
+		</div>
+		
+		<div class="row mc_footer_social">
+			<div class="span10 pull-left copyright">
+				<p>Copyright &copy; 2013 Minh Chau Technology. All right reserved. Designed by <a>PDesign</a></p>
+			</div>
+			<div class="span2 pull-right social">
+				<a href="#"><img src="./images/twitter.png" /></a>
+				<a href="#"><img src="./images/facebook.png" /></a>
+				<a href="#"><img src="./images/youtube.png" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
